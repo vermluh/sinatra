@@ -1,0 +1,13 @@
+<form action="/form" method="post" name="lightswitch">
+  <input type="text" name="message" />
+  <br />
+  <h1><%= "Session var: #{session[:mark]}" %></h1>
+  <br />
+  <!-- Lichtschalter1:&nbsp;<input type="checkbox" name="switch1"/> -->
+  Lichtschalter1:&nbsp;<input type="checkbox" name="switch1" onclick="document.forms.lightswitch.submit();" <%= session[:mark] == 1 ? checked='checked' : '' %>/>
+  <br />
+  Lichtschalter2:&nbsp;<input type="checkbox" name="switch2" onclick="document.forms.lightswitch.submit();" checked="checked"/>
+  <br />
+  <br />
+  <input type="submit" />
+</form>
