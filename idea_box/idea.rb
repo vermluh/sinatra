@@ -1,0 +1,3 @@
+class Idea
+
+end
