@@ -2,3 +2,9 @@
 ideas:
 - title: Hallo
   description: Welt!
+  rank: 1
+- title: Hallo
+  description: Welt2
+- title: Hallo
+  description: Welt3
+  rank: 2
