@@ -1,5 +1,12 @@
+require 'rubygems'
+require 'bundler/setup'
+
+require 'sass'
 require 'sinatra'
 require 'sinatra/reloader' if development?
+require 'slim'
+
+get('/styles.css'){ scss :styles }
 
 get '/' do
   slim :home
