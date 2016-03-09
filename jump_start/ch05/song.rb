@@ -3,18 +3,6 @@
 require 'dm-core'
 require 'dm-migrations'
 
-configure :development do
-  DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/development.db")
-end
-
-configure :production do
-  #production configuration here
-end
-
-configure :test do
-  #test configuration here
-end
-
 class Song
   include DataMapper::Resource
   property :id, Serial
@@ -29,3 +17,19 @@ class Song
 end
 
 DataMapper.finalize
+
+module SongHelpers
+  def find_songs
+    @songs = Song.all
+  end
+  
+  def find_songs
+    Song.get(params[:id])
+  end
+  
+  def create_song
+    @song = Song.create(params[:song])
+  end
+end
+
+helpers SongHelpers

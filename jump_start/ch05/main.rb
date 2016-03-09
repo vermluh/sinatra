@@ -10,10 +10,19 @@ require 'slim'
 
 require './song.rb'
 
-configure do
+configure :development do
   enable :sessions
   set :username, 'frank'
   set :password, 'sinatra'
+  DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/development.db")
+end
+
+configure :production do
+  #production configuration here
+end
+
+configure :test do
+  #test configuration here
 end
 
 helpers do
@@ -70,14 +79,8 @@ post '/login' do
 end
 
 get '/songs' do
-  @songs = Song.all
+  find_songs
   slim :songs
-end
-
-post '/songs' do
-  halt(401, 'Not Authorized') unless session[:admin]
-  song = Song.create(params[:song])
-  redirect to("/songs/#{song.id}")
 end
 
 get '/songs/new' do
@@ -87,27 +90,29 @@ get '/songs/new' do
 end
 
 get '/songs/:id' do
-  @song = Song.get(params[:id])
+  @song = find_song
   slim :show_song
 end
 
+get '/songs/:id/edit' do
+  @song = find_song
+  slim :edit_song
+end
+
+post '/songs' do
+  create_song
+  redirect to("/songs/#{song.id}")
+end
+
 put '/songs/:id' do
-  halt(401, 'Not Authorized') unless session[:admin]
-  song = Song.get(params[:id])
+  song = find_song
   song.update(params[:song])
   redirect to("/songs/#{song.id}")
 end
 
 delete '/songs/:id' do
-  halt(401, 'Not Authorized') unless session[:admin]
-  Song.get(params[:id]).destroy
+  find_song.destroy
   redirect to('/songs')
-end
-
-get '/songs/:id/edit' do
-  halt(401, 'Not Authorized') unless session[:admin]
-  @song = Song.get(params[:id])
-  slim :edit_song
 end
 
 not_found do
