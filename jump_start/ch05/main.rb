@@ -5,16 +5,16 @@ require 'bundler/setup'
 
 require 'sass'
 require 'sinatra'
+require './sinatra/auth'
 require 'sinatra/flash'
 require 'sinatra/reloader' if development?
 require 'slim'
 require './song.rb'
 
 configure :development do
-  enable :sessions
-  set :username, 'frank'
-  set :password, 'sinatra'
   DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/development.db")
+  set :username, 'fez'
+  set :password, '1234'
 end
 
 configure :production do
@@ -58,24 +58,6 @@ end
 
 get '/contact' do
   slim :contact
-end
-
-get '/login' do
-  slim :login
-end
-
-get '/logout' do
-  session.clear
-  redirect to('/login')
-end
-
-post '/login' do
-  if params[:username] == settings.username && params[:password] == settings.password
-    session[:admin] = true
-    redirect to('/songs')
-  else
-    slim :login
-  end
 end
 
 not_found do
