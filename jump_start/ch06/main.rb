@@ -3,6 +3,7 @@
 require 'rubygems'
 require 'bundler/setup'
 
+require 'coffee-script'
 require 'sass'
 require 'sinatra'
 require './sinatra/auth'
@@ -10,6 +11,7 @@ require 'sinatra/flash'
 require 'sinatra/reloader' if development?
 require 'slim'
 require './song.rb'
+require 'v8'
 
 configure :development do
   DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/development.db")
@@ -46,6 +48,7 @@ before do
 end
 
 get('/styles.css'){ scss :styles }
+get('/javascripts/application.js'){ coffee :application }
 
 get '/' do
   slim :home

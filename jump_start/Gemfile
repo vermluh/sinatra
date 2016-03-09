@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'coffee-script'
 gem 'data_mapper'
 gem 'dm-sqlite-adapter'
 gem 'sass'
@@ -8,3 +9,4 @@ gem 'sinatra-contrib'
 gem 'sinatra-flash'
 gem 'slim'
 gem 'sqlite3'
+gem 'therubyracer'
