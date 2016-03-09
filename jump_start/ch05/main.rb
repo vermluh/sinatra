@@ -5,9 +5,9 @@ require 'bundler/setup'
 
 require 'sass'
 require 'sinatra'
+require 'sinatra/flash'
 require 'sinatra/reloader' if development?
 require 'slim'
-
 require './song.rb'
 
 configure :development do
