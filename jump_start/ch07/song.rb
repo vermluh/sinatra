@@ -3,8 +3,8 @@
 require './applicationcontroller'
 require 'dm-core'
 require 'dm-migrations'
-require 'sass'
-require 'slim'
+#require 'sass'
+#require 'slim'
 
 class Song
   include DataMapper::Resource

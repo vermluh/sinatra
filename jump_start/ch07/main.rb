@@ -1,14 +1,10 @@
 # encoding: UTF-8
 
 require './applicationcontroller'
-require 'coffee-script'
-require 'sass'
-require 'slim'
-require 'v8'
+require './asset-handler'
 
 class Website < ApplicationController
-  get('/styles.css'){ scss :styles }
-  get('/javascripts/application.js'){ coffee :application }
+  use AssetHandler
 
   get '/' do
     slim :home
