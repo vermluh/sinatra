@@ -1,7 +1,7 @@
 # encoding: UTF-8
 
-require './applicationcontroller'
-require './asset-handler'
+require_relative 'applicationcontroller'
+require_relative 'asset-handler'
 
 class Website < ApplicationController
   use AssetHandler

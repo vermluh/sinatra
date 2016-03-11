@@ -1,7 +1,6 @@
 # encoding: UTF-8
 
-#require 'sinatra/base'
-require './sinatra/auth'
+require_relative 'sinatra/auth'
 require 'sinatra/flash'
 
 class ApplicationController < Sinatra::Base

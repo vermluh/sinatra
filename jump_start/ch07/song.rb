@@ -1,10 +1,8 @@
 # encoding: UTF-8
 
-require './applicationcontroller'
+require_relative 'applicationcontroller'
 require 'dm-core'
 require 'dm-migrations'
-#require 'sass'
-#require 'slim'
 
 class Song
   include DataMapper::Resource

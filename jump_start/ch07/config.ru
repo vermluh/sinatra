@@ -3,8 +3,8 @@ require 'bundler/setup'
 
 require 'sinatra/base'
 
-require './main'
-require './song'
+require_relative 'main'
+require_relative 'song'
 require 'slim'
 
 map('/songs') { run SongController }
