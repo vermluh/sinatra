@@ -1,9 +1,6 @@
 # encoding: UTF-8
 
-#require 'rubygems'
-#require 'bundler/setup'
-
-require 'sinatra/base'
+#require 'sinatra/base'
 require './sinatra/auth'
 require 'sinatra/flash'
 

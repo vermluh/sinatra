@@ -1,5 +1,8 @@
 # encoding: UTF-8
 
+require 'tilt/coffee'
+require 'tilt/sass'
+
 class AssetHandler < Sinatra::Base
   configure do
     set :views, File.dirname(__FILE__) + '/assets'
