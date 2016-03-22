@@ -17,6 +17,6 @@ class KaFehlercode < Sequel::Model(:ka_fehlercode)
   end
 end
 
-CSV.foreach('./error_codes.csv', {:col_sep => "\t"}) do |entry|
+CSV.foreach('./error_codes.csv', :col_sep => "\t") do |entry|
   KaFehlercode.insert(:kaf_nummer => entry[0].to_i, :kaf_text => entry[1])
 end
