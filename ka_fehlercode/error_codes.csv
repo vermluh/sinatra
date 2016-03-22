@@ -1,0 +1,349 @@
+0	Kein Fehler
+1	Undefinierter Fehler
+2	Initialisierungsfehler
+3	Unbekannten Modultyp empfangen
+4	Fehler bei der Typinitialisierung
+5	Ungültige Seriennummer empfangen. Seriennummer konnte nicht verifiziert werden.
+6	Kalibrierung abgebrochen
+7	Unbekannter oder ungültiger Prüfsatz
+15	Referenzfehler: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+16	Referenzfehler: Kontaktierung verpolt
+17	Referenzfehler: Fehler bei der Berechnung des Messwertes
+18	Referenzfehler: Zu hohes Rauschen in den Messwerten
+19	Referenzfehler: Relative Abweichung vom Sollwert zu groß
+20	Referenzfehler: Abweichung vom Sollwert zu groß
+21	Referenzfehler: Es wurde mehr als ein Messimpuls identifiziert.
+22	Referenzfehler: Zu wenige gültige Messwerte aufgenommen
+23	Referenzfehler: Messimpuls konnte nicht erkannt werden.
+24	Referenzfehler: Messimpuls konnte nicht identifiziert werden (Diff error)
+25	Referenzfehler: Zu viele Ausreißer in den Messwerten
+26	Referenzfehler: Interner Modulfehler
+150	Nicht gestartet
+151	Funktion nicht angewaehlt
+152	Messende nicht erreicht
+153	Keine Werte ausgelesen
+154	Wert ausserhalb der Toleranz des Isolationstests
+155	Wert ausserhalb der Toleranz des Hochspannungstests
+156	Werte nicht gespeichert
+157	Datensatz nicht gefunden
+158	Fehler beim Konfigurieren des Hochspannungstests
+159	Fehler beim Konfigurieren des Isolationstests
+160	Keine Isolation gemessen
+500	Allgemeiner IMC-T Fehler
+501	Fehler beim Schreiben der Default-Parameter
+502	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung)
+503	Fehler beim Schreiben der Kalibrierungsdaten (ungefilterte Strommessung)
+504	Fehler in der Überstromkalibrierung
+505	Fehler beim Schreiben der Kalibrierungsparameter
+506	Fehler in der Nachmessungssequenz (ungefilterte Strommessung)
+507	Fehler beim Schreiben der Nachmessungsdaten (ungefilterte Strommessung)
+508	Fehler in der Nachmessungssequenz (gefilterte Strommessung)
+509	Fehler beim Schreiben der Nachmessungsdaten (gefilterte Strommessung)
+510	Fehler in der Überstromnachmessungssequenz
+511	Fehler bei der Kalibrierung der Überstrommessung
+512	Fehler beim Schreiben der Überstromdaten
+513	Fehler beim Schreiben der Überstromnachmessungsdaten
+514	Modul nicht richtig kontaktiert oder keine Verbindung zur Stromversorgung
+515	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+516	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Kontaktierung verpolt
+517	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Fehler bei der Berechnung des Messwertes
+518	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Zu hohes Rauschen in den Messwerten
+519	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Relative Abweichung vom Referenzwert zu groß
+520	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Abweichung vom Referenzwert zu groß
+521	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Es wurde mehr als ein Messimpuls identifiziert.
+522	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Zu wenige gültige Messwerte aufgenommen
+523	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Messimpuls konnte nicht erkannt werden.
+524	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Messimpuls konnte nicht identifiziert werden (Diff error)
+525	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Zu viele Ausreißer in den Messwerten
+526	Fehler in der Kalibrierungssequenz (ungefilterte Strommessung): Interner Modulfehler
+527	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+528	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Kontaktierung verpolt
+529	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Fehler bei der Berechnung des Messwertes
+530	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Zu hohes Rauschen in den Messwerten
+531	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Relative Abweichung vom Referenzwert zu groß
+532	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Abweichung vom Referenzwert zu groß
+533	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Es wurde mehr als ein Messimpuls identifiziert.
+534	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Zu wenige gültige Messwerte aufgenommen
+535	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Messimpuls konnte nicht erkannt werden.
+536	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Messimpuls konnte nicht identifiziert werden (Diff error)
+537	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Zu viele Ausreißer in den Messwerten
+538	Fehler in der Nachmessungssequenz (ungefilterte Strommessung): Interner Modulfehler
+539	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+540	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Kontaktierung verpolt
+541	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Fehler bei der Berechnung des Messwertes
+542	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Zu hohes Rauschen in den Messwerten
+543	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Relative Abweichung vom Referenzwert zu groß
+544	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Abweichung vom Referenzwert zu groß
+545	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Es wurde mehr als ein Messimpuls identifiziert.
+546	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Zu wenige gültige Messwerte aufgenommen
+547	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Messimpuls konnte nicht erkannt werden.
+548	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Messimpuls konnte nicht identifiziert werden (Diff error)
+549	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Zu viele Ausreißer in den Messwerten
+550	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Interner Modulfehler
+560	Fehler in der Nachmessungssequenz (gefilterte Strommessung): Nullstromrauschen
+801	Fehler in der Überstromkalibrierung: No edge found
+802	Fehler in der Überstromkalibrierung: Falling edge not found
+803	Fehler in der Überstromkalibrierung: Rising edge not found
+804	Fehler in der Überstromkalibrierung: More than two edges found
+805	Fehler in der Überstromkalibrierung: Hysteresis relative error
+806	Fehler in der Überstromkalibrierung: Pulse width to short
+807	Fehler in der Überstromkalibrierung: Threshold relative error
+851	Fehler in der Überstromnachmessungssequenz: No edge found
+852	Fehler in der Überstromnachmessungssequenz: Falling edge not found
+853	Fehler in der Überstromnachmessungssequenz: Rising edge not found
+854	Fehler in der Überstromnachmessungssequenz: More than two edges found
+855	Fehler in der Überstromnachmessungssequenz: Hysteresis relative error
+856	Fehler in der Überstromnachmessungssequenz: Pulse width to short
+857	Fehler in der Überstromnachmessungssequenz: Threshold relative error
+990	Falsche Firmware- oder Hardwareversion
+1000	Allgemeiner IPC_IPS Fehler
+1001	Modul nicht richtig kontaktiert oder keine Verbindung zur Stromversorgung
+1002	Fehler in der Kalibrierungssequenz
+1003	Fehler beim Schreiben der Kalibrierungsdaten in die Datenbank
+1004	Fehler beim Schreiben der Kalibrierungsdaten in eine Datei
+1005	Fehler beim Schreiben der Kalibrierungsergebnisse in die Datenbank
+1006	Fehler in der Nachmessungssequenz
+1007	Fehler beim Schreiben der Nachmessungsdaten
+1008	Fehler in der Kalibrierungssequenz: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1009	Fehler in der Kalibrierungssequenz: Kontaktierung verpolt
+1010	Fehler in der Kalibrierungssequenz: Fehler bei der Berechnung des Messwertes
+1011	Fehler in der Kalibrierungssequenz: Zu hohes Rauschen in den Messwerten
+1012	Fehler in der Kalibrierungssequenz: Relative Abweichung vom Referenzwert zu groß
+1013	Fehler in der Kalibrierungssequenz: Abweichung vom Referenzwert zu groß
+1014	Fehler in der Kalibrierungssequenz: Es wurde mehr als ein Messimpuls identifiziert.
+1015	Fehler in der Kalibrierungssequenz: Zu wenige gültige Messwerte aufgenommen
+1016	Fehler in der Kalibrierungssequenz: Messimpuls konnte nicht erkannt werden.
+1017	Fehler in der Kalibrierungssequenz: Messimpuls konnte nicht identifiziert werden (Diff error)
+1018	Fehler in der Kalibrierungssequenz: Zu viele Ausreißer in den Messwerten
+1019	Fehler in der Kalibrierungssequenz: Interner Modulfehler
+1020	Fehler in der Nachmessungssequenz: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1021	Fehler in der Nachmessungssequenz: Kontaktierung verpolt
+1022	Fehler in der Nachmessungssequenz: Fehler bei der Berechnung des Messwertes
+1023	Fehler in der Nachmessungssequenz: Zu hohes Rauschen in den Messwerten
+1024	Fehler in der Nachmessungssequenz: Relative Abweichung vom Referenzwert zu groß
+1025	Fehler in der Nachmessungssequenz: Abweichung vom Referenzwert zu groß
+1026	Fehler in der Nachmessungssequenz: Es wurde mehr als ein Messimpuls identifiziert.
+1027	Fehler in der Nachmessungssequenz: Zu wenige gültige Messwerte aufgenommen
+1028	Fehler in der Nachmessungssequenz: Messimpuls konnte nicht erkannt werden.
+1029	Fehler in der Nachmessungssequenz: Messimpuls konnte nicht identifiziert werden (Diff error)
+1030	Fehler in der Nachmessungssequenz: Zu viele Ausreißer in den Messwerten
+1031	Fehler in der Nachmessungssequenz: Interner Modulfehler
+1500	Allgemeiner IMC-M Fehler
+1501	Fehler beim Schreiben der Default-Parameter
+1502	Fehler in der Kalibrierungssequenz (ASIC)
+1503	Fehler beim Schreiben der Kalibrierungsdaten (ASIC)
+1504	Fehler in der Kalibrierungssequenz (MELEXIS)
+1505	Fehler beim Schreiben der Kalibrierungsdaten (MELEXIS)
+1506	Fehler beim Schreiben der Kalibrierungsparameter
+1507	Fehler in der Nachmessungssequenz (ASIC)
+1508	Fehler beim Schreiben der Nachmessungsdaten (ASIC)
+1509	Fehler in der Nachmessungssequenz (MELEXIS)
+1510	Fehler beim Schreiben der Nachmessungsdaten (MELEXIS)
+1511	Fehler beim Lesen der Parameter
+1512	Fehler in der Kalibrierungssequenz (ASIC) HT
+1513	Fehler beim Schreiben der Kalibrierungsdaten (ASIC) HT
+1514	Fehler in der Kalibrierungssequenz (MELEXIS) HT
+1515	Fehler beim Schreiben der Kalibrierungsdaten (MELEXIS) HT
+1516	Fehler beim Schreiben der Kalibrierungsparameter HT
+1517	Fehler in der Nachmessungssequenz (ASIC) HT
+1518	Fehler beim Schreiben der Nachmessungsdaten (ASIC) HT
+1519	Fehler in der Nachmessungssequenz (MELEXIS) HT
+1520	Fehler beim Schreiben der Nachmessungsdaten (MELEXIS) HT
+1521	Fehler in der Kalibrierungssequenz (ASIC): Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1522	Fehler in der Kalibrierungssequenz (ASIC): Kontaktierung verpolt
+1523	Fehler in der Kalibrierungssequenz (ASIC): Fehler bei der Berechnung des Messwertes
+1524	Fehler in der Kalibrierungssequenz (ASIC): Zu hohes Rauschen in den Messwerten
+1525	Fehler in der Kalibrierungssequenz (ASIC): Relative Abweichung vom Referenzwert zu groß
+1526	Fehler in der Kalibrierungssequenz (ASIC): Abweichung vom Referenzwert zu groß
+1527	Fehler in der Kalibrierungssequenz (ASIC): Es wurde mehr als ein Messimpuls identifiziert.
+1528	Fehler in der Kalibrierungssequenz (ASIC): Zu wenige gültige Messwerte aufgenommen
+1529	Fehler in der Kalibrierungssequenz (ASIC): Messimpuls konnte nicht erkannt werden.
+1530	Fehler in der Kalibrierungssequenz (ASIC): Messimpuls konnte nicht identifiziert werden (Diff error)
+1531	Fehler in der Kalibrierungssequenz (ASIC): Zu viele Ausreißer in den Messwerten
+1532	Fehler in der Kalibrierungssequenz (ASIC): Interner Modulfehler
+1533	Fehler in der Nachmessungssequenz (ASIC): Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1534	Fehler in der Nachmessungssequenz (ASIC): Kontaktierung verpolt
+1535	Fehler in der Nachmessungssequenz (ASIC): Fehler bei der Berechnung des Messwertes
+1536	Fehler in der Nachmessungssequenz (ASIC): Zu hohes Rauschen in den Messwerten
+1537	Fehler in der Nachmessungssequenz (ASIC): Relative Abweichung vom Referenzwert zu groß
+1538	Fehler in der Nachmessungssequenz (ASIC): Abweichung vom Referenzwert zu groß
+1539	Fehler in der Nachmessungssequenz (ASIC): Es wurde mehr als ein Messimpuls identifiziert.
+1540	Fehler in der Nachmessungssequenz (ASIC): Zu wenige gültige Messwerte aufgenommen
+1541	Fehler in der Nachmessungssequenz (ASIC): Messimpuls konnte nicht erkannt werden.
+1542	Fehler in der Nachmessungssequenz (ASIC): Messimpuls konnte nicht identifiziert werden (Diff error)
+1543	Fehler in der Nachmessungssequenz (ASIC): Zu viele Ausreißer in den Messwerten
+1544	Fehler in der Nachmessungssequenz (ASIC): Interner Modulfehler
+1545	Fehler in der Nachmessungssequenz (MELEXIS): Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1546	Fehler in der Nachmessungssequenz (MELEXIS): Kontaktierung verpolt
+1547	Fehler in der Nachmessungssequenz (MELEXIS): Fehler bei der Berechnung des Messwertes
+1548	Fehler in der Nachmessungssequenz (MELEXIS): Zu hohes Rauschen in den Messwerten
+1549	Fehler in der Nachmessungssequenz (MELEXIS): Relative Abweichung vom Referenzwert zu groß
+1550	Fehler in der Nachmessungssequenz (MELEXIS): Abweichung vom Referenzwert zu groß
+1551	Fehler in der Nachmessungssequenz (MELEXIS): Es wurde mehr als ein Messimpuls identifiziert.
+1552	Fehler in der Nachmessungssequenz (MELEXIS): Zu wenige gültige Messwerte aufgenommen
+1553	Fehler in der Nachmessungssequenz (MELEXIS): Messimpuls konnte nicht erkannt werden.
+1554	Fehler in der Nachmessungssequenz (MELEXIS): Messimpuls konnte nicht identifiziert werden (Diff error)
+1555	Fehler in der Nachmessungssequenz (MELEXIS): Zu viele Ausreißer in den Messwerten
+1556	Fehler in der Nachmessungssequenz (MELEXIS): Interner Modulfehler
+1557	Fehler in der Kalibrierungssequenz (ASIC) HT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1558	Fehler in der Kalibrierungssequenz (ASIC) HT: Kontaktierung verpolt
+1559	Fehler in der Kalibrierungssequenz (ASIC) HT: Fehler bei der Berechnung des Messwertes
+1560	Fehler in der Kalibrierungssequenz (ASIC) HT: Zu hohes Rauschen in den Messwerten
+1561	Fehler in der Kalibrierungssequenz (ASIC) HT: Relative Abweichung vom Referenzwert zu groß
+1562	Fehler in der Kalibrierungssequenz (ASIC) HT: Abweichung vom Referenzwert zu groß
+1563	Fehler in der Kalibrierungssequenz (ASIC) HT: Es wurde mehr als ein Messimpuls identifiziert.
+1564	Fehler in der Kalibrierungssequenz (ASIC) HT: Zu wenige gültige Messwerte aufgenommen
+1565	Fehler in der Kalibrierungssequenz (ASIC) HT: Messimpuls konnte nicht erkannt werden.
+1566	Fehler in der Kalibrierungssequenz (ASIC) HT: Messimpuls konnte nicht identifiziert werden (Diff error)
+1567	Fehler in der Kalibrierungssequenz (ASIC) HT: Zu viele Ausreißer in den Messwerten
+1568	Fehler in der Kalibrierungssequenz (ASIC) HT: Interner Modulfehler
+1569	Fehler in der Nachmessungssequenz (ASIC) HT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1570	Fehler in der Nachmessungssequenz (ASIC) HT: Kontaktierung verpolt
+1571	Fehler in der Nachmessungssequenz (ASIC) HT: Fehler bei der Berechnung des Messwertes
+1572	Fehler in der Nachmessungssequenz (ASIC) HT: Zu hohes Rauschen in den Messwerten
+1573	Fehler in der Nachmessungssequenz (ASIC) HT: Relative Abweichung vom Referenzwert zu groß
+1574	Fehler in der Nachmessungssequenz (ASIC) HT: Abweichung vom Referenzwert zu groß
+1575	Fehler in der Nachmessungssequenz (ASIC) HT: Es wurde mehr als ein Messimpuls identifiziert.
+1576	Fehler in der Nachmessungssequenz (ASIC) HT: Zu wenige gültige Messwerte aufgenommen
+1577	Fehler in der Nachmessungssequenz (ASIC) HT: Messimpuls konnte nicht erkannt werden.
+1578	Fehler in der Nachmessungssequenz (ASIC) HT: Messimpuls konnte nicht identifiziert werden (Diff error)
+1579	Fehler in der Nachmessungssequenz (ASIC) HT: Zu viele Ausreißer in den Messwerten
+1580	Fehler in der Nachmessungssequenz (ASIC) HT: Interner Modulfehler
+1581	Fehler in der Nachmessungssequenz (MELEXIS) HT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+1582	Fehler in der Nachmessungssequenz (MELEXIS) HT: Kontaktierung verpolt
+1583	Fehler in der Nachmessungssequenz (MELEXIS) HT: Fehler bei der Berechnung des Messwertes
+1584	Fehler in der Nachmessungssequenz (MELEXIS) HT: Zu hohes Rauschen in den Messwerten
+1585	Fehler in der Nachmessungssequenz (MELEXIS) HT: Relative Abweichung vom Referenzwert zu groß
+1586	Fehler in der Nachmessungssequenz (MELEXIS) HT: Abweichung vom Referenzwert zu groß
+1587	Fehler in der Nachmessungssequenz (MELEXIS) HT: Es wurde mehr als ein Messimpuls identifiziert.
+1588	Fehler in der Nachmessungssequenz (MELEXIS) HT: Zu wenige gültige Messwerte aufgenommen
+1589	Fehler in der Nachmessungssequenz (MELEXIS) HT: Messimpuls konnte nicht erkannt werden.
+1590	Fehler in der Nachmessungssequenz (MELEXIS) HT: Messimpuls konnte nicht identifiziert werden (Diff error)
+1591	Fehler in der Nachmessungssequenz (MELEXIS) HT: Zu viele Ausreißer in den Messwerten
+1592	Fehler in der Nachmessungssequenz (MELEXIS) HT: Interner Modulfehler
+1601	Fehler in der Nachmessungssequenz (MELEXIS) RT: Fehlerhafte Kontaktierung des Sekundärkanals
+1602	Fehler in der Nachmessungssequenz (MELEXIS) HT: Fehlerhafte Kontaktierung des Sekundärkanals
+1900	Fehler in der Nachmessungssequenz RT: Failed to validate remeasurement results
+1901	Fehler in der Nachmessungssequenz HT: Failed to validate remeasurement results
+1990	IMC-M Modul wurde bereits kalibriert. Erneuete Kalibrierung nur nach Zurücksetzen möglich.
+2000	Allgemeiner IVT-MOD Fehler
+2001	Fehler beim Schreiben der Default-Parameter
+2002	Falsche Firmwareversion im Modul
+2003	Temperatur noch nicht erreicht
+2010	Fehler in der Stromkalibrierungssequenz
+2011	Fehler in der Stromkalibrierungssequenz RT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2012	Fehler in der Stromkalibrierungssequenz RT: Kontaktierung verpolt
+2013	Fehler in der Stromkalibrierungssequenz RT: Fehler bei der Berechnung des Messwertes
+2014	Fehler in der Stromkalibrierungssequenz RT: Zu hohes Rauschen in den Messwerten
+2015	Fehler in der Stromkalibrierungssequenz RT: Relative Abweichung vom Referenzwert zu groß
+2016	Fehler in der Stromkalibrierungssequenz RT: Abweichung vom Referenzwert zu groß
+2017	Fehler in der Stromkalibrierungssequenz RT: Es wurde mehr als ein Messimpuls identifiziert.
+2018	Fehler in der Stromkalibrierungssequenz RT: Zu wenige gültige Messwerte aufgenommen
+2019	Fehler in der Stromkalibrierungssequenz RT: Messimpuls konnte nicht erkannt werden.
+2020	Fehler in der Stromkalibrierungssequenz RT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2021	Fehler in der Stromkalibrierungssequenz RT: Zu viele Ausreißer in den Messwerten
+2022	Fehler in der Stromkalibrierungssequenz RT: Interner Modulfehler
+2023	Fehler beim Schreiben der Kalibrierdaten (Raumtemperatur)
+2040	Fehler in der Spannungskalibrierungssequenz
+2041	Fehler in der Spannungskalibrierungssequenz RT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2042	Fehler in der Spannungskalibrierungssequenz RT: Kontaktierung verpolt
+2043	Fehler in der Spannungskalibrierungssequenz RT: Fehler bei der Berechnung des Messwertes
+2044	Fehler in der Spannungskalibrierungssequenz RT: Zu hohes Rauschen in den Messwerten
+2045	Fehler in der Spannungskalibrierungssequenz RT: Relative Abweichung vom Referenzwert zu groß
+2046	Fehler in der Spannungskalibrierungssequenz RT: Abweichung vom Referenzwert zu groß
+2047	Fehler in der Spannungskalibrierungssequenz RT: Es wurde mehr als ein Messimpuls identifiziert.
+2048	Fehler in der Spannungskalibrierungssequenz RT: Zu wenige gültige Messwerte aufgenommen
+2049	Fehler in der Spannungskalibrierungssequenz RT: Messimpuls konnte nicht erkannt werden.
+2050	Fehler in der Spannungskalibrierungssequenz RT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2051	Fehler in der Spannungskalibrierungssequenz RT: Zu viele Ausreißer in den Messwerten
+2052	Fehler in der Spannungskalibrierungssequenz RT: Interner Modulfehler
+2053	Fehler beim Schreiben der Spannungskalibrierdaten (Raumtemperatur)
+2070	Fehler beim Schreiben der Kalibrierdaten (Raumtemperatur)
+2080	Fehler in der Stromnachmessungssequenz (Raumtemperatur)
+2081	Fehler in der Stromnachmessungssequenz RT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2082	Fehler in der Stromnachmessungssequenz RT: Kontaktierung verpolt
+2083	Fehler in der Stromnachmessungssequenz RT: Fehler bei der Berechnung des Messwertes
+2084	Fehler in der Stromnachmessungssequenz RT: Zu hohes Rauschen in den Messwerten
+2085	Fehler in der Stromnachmessungssequenz RT: Relative Abweichung vom Referenzwert zu groß
+2086	Fehler in der Stromnachmessungssequenz RT: Abweichung vom Referenzwert zu groß
+2087	Fehler in der Stromnachmessungssequenz RT: Es wurde mehr als ein Messimpuls identifiziert.
+2088	Fehler in der Stromnachmessungssequenz RT: Zu wenige gültige Messwerte aufgenommen
+2089	Fehler in der Stromnachmessungssequenz RT: Messimpuls konnte nicht erkannt werden.
+2090	Fehler in der Stromnachmessungssequenz RT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2091	Fehler in der Stromnachmessungssequenz RT: Zu viele Ausreißer in den Messwerten
+2092	Fehler in der Stromnachmessungssequenz RT: Interner Modulfehler
+2093	Fehler beim Schreiben der Daten der Stromnachmessung (Raumtemperatur)
+2110	Fehler in der Spannungsnachmessungssequenz (Raumtemperatur)
+2111	Fehler in der Spannungsnachmessungssequenz RT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2112	Fehler in der Spannungsnachmessungssequenz RT: Kontaktierung verpolt
+2113	Fehler in der Spannungsnachmessungssequenz RT: Fehler bei der Berechnung des Messwertes
+2114	Fehler in der Spannungsnachmessungssequenz RT: Zu hohes Rauschen in den Messwerten
+2115	Fehler in der Spannungsnachmessungssequenz RT: Relative Abweichung vom Referenzwert zu groß
+2116	Fehler in der Spannungsnachmessungssequenz RT: Abweichung vom Referenzwert zu groß
+2117	Fehler in der Spannungsnachmessungssequenz RT: Es wurde mehr als ein Messimpuls identifiziert.
+2118	Fehler in der Spannungsnachmessungssequenz RT: Zu wenige gültige Messwerte aufgenommen
+2119	Fehler in der Spannungsnachmessungssequenz RT: Messimpuls konnte nicht erkannt werden.
+2120	Fehler in der Spannungsnachmessungssequenz RT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2121	Fehler in der Spannungsnachmessungssequenz RT: Zu viele Ausreißer in den Messwerten
+2122	Fehler in der Spannungsnachmessungssequenz RT: Interner Modulfehler
+2123	Fehler beim Schreiben der Daten der Spannungsnachmessung (Raumtemperatur)
+2130	Fehler beim Schreiben der kundenspezifischen Daten (Raumtemperatur)
+2141	Fehler beim Lesen der Raumtemperaturdaten
+2150	Fehler in der Stromkalibrierungssequenz (Hochtemperatur)
+2151	Fehler in der Stromkalibrierungssequenz HT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2152	Fehler in der Stromkalibrierungssequenz HT: Kontaktierung verpolt
+2153	Fehler in der Stromkalibrierungssequenz HT: Fehler bei der Berechnung des Messwertes
+2154	Fehler in der Stromkalibrierungssequenz HT: Zu hohes Rauschen in den Messwerten
+2155	Fehler in der Stromkalibrierungssequenz HT: Relative Abweichung vom Referenzwert zu groß
+2156	Fehler in der Stromkalibrierungssequenz HT: Abweichung vom Referenzwert zu groß
+2157	Fehler in der Stromkalibrierungssequenz HT: Es wurde mehr als ein Messimpuls identifiziert.
+2158	Fehler in der Stromkalibrierungssequenz HT: Zu wenige gültige Messwerte aufgenommen
+2159	Fehler in der Stromkalibrierungssequenz HT: Messimpuls konnte nicht erkannt werden.
+2160	Fehler in der Stromkalibrierungssequenz HT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2161	Fehler in der Stromkalibrierungssequenz HT: Zu viele Ausreißer in den Messwerten
+2162	Fehler in der Stromkalibrierungssequenz HT: Interner Modulfehler
+2163	Fehler beim Schreiben der Kalibrierdaten (Hochtemperatur)
+2180	Fehler in der Spannungskalibrierungssequenz (Hochtemperatur)
+2181	Fehler in der Spannungskalibrierungssequenz HT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2182	Fehler in der Spannungskalibrierungssequenz HT: Kontaktierung verpolt
+2183	Fehler in der Spannungskalibrierungssequenz HT: Fehler bei der Berechnung des Messwertes
+2184	Fehler in der Spannungskalibrierungssequenz HT: Zu hohes Rauschen in den Messwerten
+2185	Fehler in der Spannungskalibrierungssequenz HT: Relative Abweichung vom Referenzwert zu groß
+2186	Fehler in der Spannungskalibrierungssequenz HT: Abweichung vom Referenzwert zu groß
+2187	Fehler in der Spannungskalibrierungssequenz HT: Es wurde mehr als ein Messimpuls identifiziert.
+2188	Fehler in der Spannungskalibrierungssequenz HT: Zu wenige gültige Messwerte aufgenommen
+2189	Fehler in der Spannungskalibrierungssequenz HT: Messimpuls konnte nicht erkannt werden.
+2190	Fehler in der Spannungskalibrierungssequenz HT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2191	Fehler in der Spannungskalibrierungssequenz HT: Zu viele Ausreißer in den Messwerten
+2192	Fehler in der Spannungskalibrierungssequenz HT: Interner Modulfehler
+2193	Fehler beim Schreiben der Spannungskalibrierdaten (Hochtemperatur)
+2210	Fehler beim Schreiben der Kalibrierdaten (Hochtemperatur)
+2220	Fehler in der Stromnachmessungssequenz (Hochtemperatur)
+2221	Fehler in der Stromnachmessungssequenz HT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2222	Fehler in der Stromnachmessungssequenz HT: Kontaktierung verpolt
+2223	Fehler in der Stromnachmessungssequenz HT: Fehler bei der Berechnung des Messwertes
+2224	Fehler in der Stromnachmessungssequenz HT: Zu hohes Rauschen in den Messwerten
+2225	Fehler in der Stromnachmessungssequenz HT: Relative Abweichung vom Referenzwert zu groß
+2226	Fehler in der Stromnachmessungssequenz HT: Abweichung vom Referenzwert zu groß
+2227	Fehler in der Stromnachmessungssequenz HT: Es wurde mehr als ein Messimpuls identifiziert.
+2228	Fehler in der Stromnachmessungssequenz HT: Zu wenige gültige Messwerte aufgenommen
+2229	Fehler in der Stromnachmessungssequenz HT: Messimpuls konnte nicht erkannt werden.
+2230	Fehler in der Stromnachmessungssequenz HT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2231	Fehler in der Stromnachmessungssequenz HT: Zu viele Ausreißer in den Messwerten
+2232	Fehler in der Stromnachmessungssequenz HT: Interner Modulfehler
+2233	Fehler beim Schreiben der Daten der Stromnachmessung (Hochtemperatur)
+2250	Fehler in der Spannungsnachmessungssequenz (Hochtemperatur)
+2251	Fehler in der Spannungsnachmessungssequenz RT: Kein Strom/keine Spannung gemessen. Eventuelles Kontaktierungsproblem.
+2252	Fehler in der Spannungsnachmessungssequenz RT: Kontaktierung verpolt
+2253	Fehler in der Spannungsnachmessungssequenz RT: Fehler bei der Berechnung des Messwertes
+2254	Fehler in der Spannungsnachmessungssequenz RT: Zu hohes Rauschen in den Messwerten
+2255	Fehler in der Spannungsnachmessungssequenz RT: Relative Abweichung vom Referenzwert zu groß
+2256	Fehler in der Spannungsnachmessungssequenz RT: Abweichung vom Referenzwert zu groß
+2257	Fehler in der Spannungsnachmessungssequenz RT: Es wurde mehr als ein Messimpuls identifiziert.
+2258	Fehler in der Spannungsnachmessungssequenz RT: Zu wenige gültige Messwerte aufgenommen
+2259	Fehler in der Spannungsnachmessungssequenz RT: Messimpuls konnte nicht erkannt werden.
+2260	Fehler in der Spannungsnachmessungssequenz RT: Messimpuls konnte nicht identifiziert werden (Diff error)
+2261	Fehler in der Spannungsnachmessungssequenz RT: Zu viele Ausreißer in den Messwerten
+2262	Fehler in der Spannungsnachmessungssequenz RT: Interner Modulfehler
+2263	Fehler beim Schreiben der Daten der Spannungsnachmessung (Hochtemperatur)
+2270	Fehler beim Schreiben der kundenspezifischen Daten (Hochtemperatur)

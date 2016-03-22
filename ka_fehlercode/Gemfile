@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+gem 'awesome_print'
+gem 'sequel'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'slim'
+gem 'sqlite3'
