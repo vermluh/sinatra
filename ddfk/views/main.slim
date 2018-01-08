@@ -1,0 +1,50 @@
+doctype html
+css:
+  
+  tbody tr.colored:nth-child(3n+1) {
+    background-color:white;
+    color:black;
+  }
+  tbody tr.colored:nth-child(3n+1):hover {
+    background-color:black;
+    color:white;
+  }
+  tbody tr.colored:nth-child(3n+2) {
+    background-color:#E41B17;
+  }
+  tbody tr.colored:nth-child(3n+2):hover {
+    background-color:#17E0E3;
+  }
+  tbody tr.colored:nth-child(3n+3) {
+    background-color:#1F45FC;
+  }
+  tbody tr.colored:nth-child(3n+3):hover {
+    background-color:#FCD71E;
+  }
+  
+  td {
+    border-left:1px solid black;
+    border-top:1px solid black;
+  }
+  table {
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    border-collapse:collapse;
+  }
+  
+html
+  head
+    title Die drei ??? Kids
+    meta name="keywords" content="template language"
+    meta charset="utf-8"
+    
+  body
+    table
+      | <thead><tr><th>Nummer</th><th>Titel</th></tr></thead>
+      tbody
+        - Books.all.sort { |x,y| x.number.to_i <=> y.number.to_i }.each do |book|
+          tr.colored
+            td.number = book.number.nil? ? '' : book.number.to_i
+            td.title = book.title.encode('UTF-8')
