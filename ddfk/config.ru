@@ -3,5 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require_relative './die_drei_f.rb'
-run Sinatra::Application
+require_relative 'die_drei_f'
+run DDFK
