@@ -2,6 +2,7 @@
 
 require 'rubygems'
 Bundler.setup
+require 'awesome_print'
 
 require 'csv'
 
