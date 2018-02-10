@@ -4,7 +4,7 @@ class Book
   attr_accessor :number, :title
   
   def initialize(row)
-    @number = row['Nummer']
+    @number = row['Nummer'] ||= 'unbekannt'
     @title = row['Titel']
   end
   

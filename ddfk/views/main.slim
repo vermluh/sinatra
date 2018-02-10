@@ -26,8 +26,7 @@ css:
   }
   
   td {
-    border-left:1px solid black;
-    border-top:1px solid black;
+    border:1px solid black;
   }
   table {
     border:1px solid black;
@@ -44,7 +43,7 @@ html
     table
       | <thead><tr><th>Nummer</th><th>Titel</th></tr></thead>
       tbody
-        - Books.all.sort { |x,y| x.number.to_i <=> y.number.to_i }.each do |book|
+        - Books.all.each do |book|
           tr.colored
-            td.number = book.number.nil? ? '' : book.number.to_i
+            td.number = book.number
             td.title = book.title.encode('UTF-8')
