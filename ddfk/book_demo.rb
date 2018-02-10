@@ -17,7 +17,7 @@ def sort_demo()
   sorted_keys.each do |key|
     books_strings << grouped[key]
                        .sort do |x,y| 
-                         comp = (x.number.to_i <=> y.number.to_i)
+                         comp = (x.number[/\d+/].to_i <=> y.number[/\d+/].to_i)
                          comp.zero? ? (x.title <=> y.title) : comp
                        end
                        .map { |book| "Nummer: #{book.number}; Titel: #{book.title.encode('UTF-8')}" }

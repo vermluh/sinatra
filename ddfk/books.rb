@@ -12,7 +12,7 @@ class Books
                      .sort_by { |key, books| key ||= '' }
                      .each do |key, books|
                        @books << books.sort do |x,y|
-                         comp = (x.number.to_i <=> y.number.to_i)
+                         comp = (x.number[/\d+/].to_i <=> y.number[/\d+/].to_i)
                          comp.zero? ? (x.title <=> y.title) : comp
                        end
                      end
