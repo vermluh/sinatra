@@ -17,11 +17,15 @@ class Book
   end
 
   def numeric_number_part
-    number[/\d+/].to_i
+    @number[/\d+/].to_i
   end
 
   def <=>(other)
-    numeric_number_part == other.numeric_number_part ? title <=> other.title : numeric_number_part <=> other.numeric_number_part
+    if numeric_number_part == other.numeric_number_part
+      @title <=> other.title
+    else
+      numeric_number_part <=> other.numeric_number_part
+    end
   end
 end
 
